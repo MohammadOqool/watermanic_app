@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:watermanicapp/screens/HomeScreen.dart';
+import 'package:watermanicapp/pages/SplashPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: SplashPage(),
     );
   }
 }
